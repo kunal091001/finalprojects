@@ -6,20 +6,141 @@
     <link rel="stylesheet" href="style.css" />
     <title>Moviesfy</title>
   </head>
-  
-  <body>
-    <div class="logo">MOV<span>iesfy</span></div>
-    <form id="form">
-      <input type="text" id="search" class="search" placeholder="Search">              
-    </form>
-        
-    <main id="main"></main>
 
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+  />
+
+
+  
+      <nav class="navbar navbar-expand-lg navbar-dark " style="background-color:#303030 ;">
+        <div class="container-fluid">
+          <a href="/index.html" class="nav-brand">
+            <div class="logo">MOV<span>iesfy</span></div>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="form.html">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Language
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">English</a></li>   <li><a class="dropdown-item" href="#">Hindi</a></li>
+                 
+                </ul>
+              </li>
+              <li class="nav-items" >
+                <a
+                  class=" btn m-1   pt-1"
+                  data-bs-toggle="offcanvas"
+                  href="#offcanvasExample"
+                  role="button"
+                  aria-controls="offcanvasExample"
+                  style="color:white;"
+                >
+                  Categories
+                </a>
+                <div 
+                  class="offcanvas offcanvas-start"
+                  tabindex="-1"
+                  id="offcanvasExample"
+                  aria-labelledby="offcanvasExampleLabel"
+                  style="background-color:#303030"
+                >
+                  <div class="offcanvas-header" style="background-color:#282828;color:white">
+                    <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                      CATEGORIES
+                    </h5>
+                    <button 
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+
+                  <div class="dropdown mt-3"  >
+                    <button
+                      class="btn btn-secondary dropdown-toggle"
+                      type="button"
+                      data-bs-toggle="dropdown"
+                    >
+                     Moviemania
+                    </button>
+                    <ul class="dropdown-menu" style="background-color:#8888">
+                      <li ><a class="dropdown-item" style="color:black;">Action</a></li>
+                      <li><a class="dropdown-item" style="color:black">Adventure</a></li>
+                      <li><a class="dropdown-item" style="color:black">Drama</a></li>
+                      <li><a class="dropdown-item" style="color:black">Thriller</a></li>
+                      <li><a class="dropdown-item" style="color:black">Ghost</a></li>
+                      <li><a class="dropdown-item" style="color:black">Comedy</a></li>
+                      <li><a class="dropdown-item" style="color:black">Fantasy</a></li>
+                      <li><a class="dropdown-item" style="color:black">Romance</a></li>
+                      <li><a class="dropdown-item" style="color:black">Science fiction</a></li>
+                      <li><a class="dropdown-item" style="color:black">Animation</a></li>
+                      <li><a class="dropdown-item" style="color: black">Crime</a></li>
+                      <li><a class="dropdown-item" style="color:black">Mystery</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="booking.html">Bookings</a>
+              </li>
+            </ul>
+            <form id="form" >
+              <input 
+              class="search"
+                type="text"
+                name="search"
+                id="search"
+                class="search"
+                placeholder="Search"
+              />
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- <li><button class="button" onclick="window.location.href='sidebar.html';">Categories</button></li> -->
+    </ul>
+  </nav>
+  <body>
+    <main id="main" style="background-color:#282828;"></main>
     <script src="script.js"></script>
 
-    <footer> 
-      <p style="text-align:centre"><a href="https://github.com/kunal091001">Visit Workplace</a><br>ALL RIGHTS RESERVED</p>
-    </footer>
-    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
