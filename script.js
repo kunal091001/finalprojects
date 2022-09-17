@@ -36,7 +36,7 @@ function showMovies(movies) {
           <h3><big>O</big>verview</h3>
           ${overview}
         </div>
-        `
+       `
         main.appendChild(movieEl)
     })
 }
