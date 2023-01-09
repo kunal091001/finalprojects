@@ -51,6 +51,17 @@ function getClassByRate(vote) {
     }
 }
 
+function solve(val){
+    const searchTerm = c;
+    if(searchTerm && searchTerm !== '') {
+        getMovies(SEARCH_API + searchTerm)
+
+        search.value = ''
+    } else {
+        window.location.reload()
+    }
+}
+
 form.addEventListener('submit', (e) => {
     e.preventDefault()
 
@@ -64,3 +75,5 @@ form.addEventListener('submit', (e) => {
         window.location.reload()
     }
 })
+
+

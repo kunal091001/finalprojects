@@ -13,8 +13,6 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
     crossorigin="anonymous"/>
 
-
-  
       <nav class="navbar navbar-expand-lg navbar-dark " style="background-color:#303030 ;">
         <div class="container-fluid">
           <a href="/index.html" class="nav-brand">
@@ -52,8 +50,8 @@
                   Language
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">English</a></li>
-                  <li><a class="dropdown-item" href="#">Hindi</a></li>
+                  <li><button class="dropdown-item" id="mybtn" onclick="">English</button></li>
+                  <li><button class="dropdown-item" id="mybtn2" onclick="">Hindi</button></li>
                 </ul>
               </li>
               <li class="nav-items" >
@@ -94,19 +92,19 @@
                     >
                      Moviemania
                     </button>
-                    <ul class="dropdown-menu" style="background-color:#8888">
-                      <li ><a class="dropdown-item" style="color:black;">Action</a></li>
-                      <li><a class="dropdown-item" style="color:black">Adventure</a></li>
-                      <li><a class="dropdown-item" style="color:black">Drama</a></li>
-                      <li><a class="dropdown-item" style="color:black">Thriller</a></li>
-                      <li><a class="dropdown-item" style="color:black">Ghost</a></li>
-                      <li><a class="dropdown-item" style="color:black">Comedy</a></li>
-                      <li><a class="dropdown-item" style="color:black">Fantasy</a></li>
-                      <li><a class="dropdown-item" style="color:black">Romance</a></li>
-                      <li><a class="dropdown-item" style="color:black">Science fiction</a></li>
-                      <li><a class="dropdown-item" style="color:black">Animation</a></li>
-                      <li><a class="dropdown-item" style="color: black">Crime</a></li>
-                      <li><a class="dropdown-item" style="color:black">Mystery</a></li>
+                    <ul class="dropdown-menu" style="background-color:#8888" >
+                      <li><button class="dropdown-item" style="color:black" onclick="solve('Action')">Action</button></li>
+                      <li><button class="dropdown-item" style="color:black" onclick="solve('Adventure')">Adventure</button></li>
+                      <li><button class="dropdown-item" style="color:black" onclick="solve('Drama')">Drama</button></li>
+                      <li><button class="dropdown-item" style="color:black" onclick="solve('Thriller')">Thriller</button></li>
+                      <li><button class="dropdown-item" style="color:black" onclick="solve('Ghost')">Ghost</button></li>
+                      <li><button class="dropdown-item" style="color:black" onclick="solve('Comedy')">Comedy</button></li>
+                      <li><button class="dropdown-item" style="color:black" onclick="solve('Fantasy')">Fantasy</button></li>
+                      <li><button class="dropdown-item" style="color:black" onclick="solve('Romance')">Romance</button></li>
+                      <li><button class="dropdown-item" style="color:black" onclick="solve('Science fiction')">Science fiction</a></li>
+                      <li><button class="dropdown-item" style="color:black" onclick="solve('Animation')">Animation</button></li>
+                      <li><button class="dropdown-item" style="color:black" onclick="solve('Crime')">Crime</button></li>
+                      <li><button class="dropdown-item" style="color:black" onclick="solve('Mystery')">Mystery</button></li>
                     </ul>
                   </div>
                 </div>
@@ -147,6 +145,7 @@
   </nav>
   <body>
     <main id="main" style="background-color:#282828;"></main>
+
     <script src="script.js"></script>
 
     <script
