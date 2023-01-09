@@ -52,6 +52,7 @@ function getClassByRate(vote) {
 }
 
 function solve(val){
+    const c=val;
     const searchTerm = c;
     if(searchTerm && searchTerm !== '') {
         getMovies(SEARCH_API + searchTerm)
